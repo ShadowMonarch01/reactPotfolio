@@ -33,7 +33,7 @@ import NavImage7 from './nav31.PNG'
 import NavImage8 from './nav32.PNG'
 import NavImage9 from './nav33.PNG'
 
-import PotImage from './potwebsite.PNG'
+import PotImage from './mobiledev1.png'
 
 
 
