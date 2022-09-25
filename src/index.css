@@ -1,13 +1,27 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:weht@500&display=swap');
+
+/* :root{
+    
+} */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+    /* font-size: 62.5%; */
+    height: 100%;
+}
+
+body{
+    background: #1d1d1d;
+    height: 100%;
+    margin: 0%;
+}
+:root{
+    /* height: 100%; */
+    --yellow-theme-main-color:gold;
 }

@@ -1,0 +1,175 @@
+.project__info{
+    position: relative;
+    // background-color: blue;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-content: center;
+    justify-self:center;
+    margin-bottom: 200px;
+    
+
+
+    .container{
+        display: grid;
+        height: 400px;
+        width: 1000px;
+        margin-top: 100px;
+        grid-template-columns: 0.5fr 1.0fr 0.5fr 2fr;
+        grid-template-rows:  1.0fr 0.2fr 0.9fr;
+        align-self: center;
+        justify-content: center;
+
+        .infod{
+            // background-color: antiquewhite;
+
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+
+            p{
+                font-size: 20px;
+                padding: 10px;
+                color: #ffffff;
+            }
+
+            // display: flex;
+            // align-content: center;
+            // justify-content: center;
+        }
+
+        .linkd{
+            // background-color: brown;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 2;
+
+            h2{
+                font-size: 20px;
+                padding: 10px;
+                color: #ffffff;
+
+                a{
+                    color: #ffffff;
+                }
+            }
+        }
+
+        .imgd{
+            // background-color: orange;
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 4;
+
+            display: grid;
+            grid-template-columns: repeat(3,0.5fr);
+            grid-auto-rows: auto;
+            gap: 1.6rem 0.9rem;
+
+            div{
+                height: 300px;
+
+                img{
+                    height: inherit;
+                    object-fit:contain;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .project__info{
+        position: relative;
+        // background-color: blue;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        align-content: center;
+        justify-self:center;
+    
+    
+        
+    // div{
+
+        
+    //     background-color: green;
+        
+
+
+        .container{
+            display: grid;
+            height: 400px;
+            width: 700px;
+            margin-top: 70px;
+            grid-template-columns:  0.6fr;
+            grid-template-rows:  1.0fr 0.2fr 2.1fr;
+            align-self: center;
+            justify-content: center;
+
+
+            .infod{
+                // background-color: antiquewhite;
+    
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+    
+                p{
+                    font-size: 20px;
+                    padding: 10px;
+                    color: #ffffff;
+                }
+    
+                // display: flex;
+                // align-content: center;
+                // justify-content: center;
+            }
+    
+            .linkd{
+                // background-color: brown;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 3;
+    
+                h2{
+                    font-size: 20px;
+                    padding: 10px;
+                    color: #ffffff;
+                }
+            }
+    
+            .imgd{
+                // background-color: orange;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 3;
+                grid-row-end: 3;
+    
+                display: grid;
+                grid-template-columns: repeat(3,0.5fr);
+                grid-auto-rows: auto;
+                gap: 1.6rem 0.9rem;
+    
+                div{
+                    height: 300px;
+    
+                    img{
+                        height: inherit;
+                        object-fit:contain;
+                        width: 100%;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
