@@ -21,6 +21,7 @@ body{
     background: #1d1d1d;
     height: 100%;
     margin: 0%;
+    overflow-x: hidden;
 }
 :root{
     /* height: 100%; */
