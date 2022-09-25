@@ -144,48 +144,48 @@ const myPotfolioData = [
           },
         ]
     },
-    {
-        id:3,
-        name:"ResponSiveNavs",
-        image: NavImage8,
-        link:'navlinks',
-        details:'This is a simple React Js project implementing 3 kinds of ResponSive navigation bars',
-        imagesAr:[
-            {
-                id:1,
-              image:NavImage1    
-          },
-          {
-              id:2,
-              image:NavImage2
-          },{
-              id:3,
-              image:NavImage3
-          },{
-              id:4,
-              image:NavImage4
-          },{
-              id:5,
-              image:NavImage5
-          },
-          {
-              id:6,
-              image:NavImage6
-          },
-          {
-              id:7,
-              image:NavImage7
-          },
-          {
-            id:8,
-            image:NavImage8
-        },
-        {
-            id:9,
-            image:NavImage9
-        },
-        ]
-    },
+    // {
+    //     id:3,
+    //     name:"ResponSiveNavs",
+    //     image: NavImage8,
+    //     link:'navlinks',
+    //     details:'This is a simple React Js project implementing 3 kinds of ResponSive navigation bars',
+    //     imagesAr:[
+    //         {
+    //             id:1,
+    //           image:NavImage1    
+    //       },
+    //       {
+    //           id:2,
+    //           image:NavImage2
+    //       },{
+    //           id:3,
+    //           image:NavImage3
+    //       },{
+    //           id:4,
+    //           image:NavImage4
+    //       },{
+    //           id:5,
+    //           image:NavImage5
+    //       },
+    //       {
+    //           id:6,
+    //           image:NavImage6
+    //       },
+    //       {
+    //           id:7,
+    //           image:NavImage7
+    //       },
+    //       {
+    //         id:8,
+    //         image:NavImage8
+    //     },
+    //     {
+    //         id:9,
+    //         image:NavImage9
+    //     },
+    //     ]
+    // },
     {
         id:3,
         name:"Potfolio Site",
