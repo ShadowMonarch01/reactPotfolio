@@ -270,7 +270,7 @@ const myPotfolioData = [
         name:"EcommUI",
         image: EcommUI1,
         link:'https://drive.google.com/file/d/1t1g25hpUOXdYd65YN312EjrYMYdcEBom/view?usp=drivesdk',
-        details:"This is a Note Ecommoerce UI template built using React Native, it contains the basic features an ecommerce app should have and can easily be connected to backend api's the template can easily be styled to meet the needs of clients who want to use it",
+        details:"This is an Ecommoerce UI template built using React Native, it contains the basic features an ecommerce app should have and can easily be connected to backend api's, the template can also easily be styled to meet the needs of clients who want to use it",
         imagesAr:[
             {
                 id:1,
