@@ -35,6 +35,16 @@ import NavImage9 from './nav33.PNG'
 
 import PotImage from './mobiledev1.png'
 
+import NoteMaker1 from './NoteMaker1.png'
+import NoteMaker2 from './NoteMaker2.png'
+import NoteMaker3 from './NoteMaker3.png'
+import NoteMaker4 from './NoteMaker4.png'
+import NoteMaker5 from './NoteMaker5.png'
+
+import EcommUI1 from './EcommUI1.png'
+import EcommUI2 from './EcommUI2.png'
+import EcommUI3 from './EcommUI3.png'
+
 
 
 const myPotfolioData = [
@@ -226,6 +236,54 @@ const myPotfolioData = [
             id:9,
             image:NavImage9
         },
+        ]
+    },
+    {
+        id:2,
+        name:"NoteMaker",
+        image: NoteMaker1,
+        link:'https://drive.google.com/file/d/1t3BP-nNF8BLo92lJEr13QDlfEp5veP2G/view?usp=drivesdk',
+        details:'This is a Note Making app built with React Native it is used to make, keep ,store and edit notes',
+        imagesAr:[
+            {
+                id:1,
+              image:NoteMaker1    
+          },
+          {
+              id:2,
+              image:NoteMaker2
+          },{
+              id:3,
+              image:NoteMaker3
+          },{
+              id:4,
+              image:NoteMaker4
+          },{
+              id:5,
+              image:NoteMaker5
+          },
+          
+        ]
+    },
+    {
+        id:2,
+        name:"EcommUI",
+        image: EcommUI1,
+        link:'https://drive.google.com/file/d/1t1g25hpUOXdYd65YN312EjrYMYdcEBom/view?usp=drivesdk',
+        details:"This is a Note Ecommoerce UI template built using React Native, it contains the basic features an ecommerce app should have and can easily be connected to backend api's the template can easily be styled to meet the needs of clients who want to use it",
+        imagesAr:[
+            {
+                id:1,
+              image:EcommUI1    
+          },
+          {
+              id:2,
+              image:EcommUI2
+          },{
+              id:3,
+              image:EcommUI3
+          },
+          
         ]
     },
 ]
