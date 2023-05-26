@@ -25,7 +25,7 @@ const personalDetails =[
 
 ]
 
-const jobSummary = 'I Am a Mobile App developer with 3 years of experience ,I have worked on several mobile apps and web projects using React Native and React js. I am also proficient in Python, Flask, Mysql, Sql, Mongo Db and FireBase.I have worked as a freelance backend developer with other developers to help complete and ship projects to clients'
+const jobSummary = 'I Am a Software Developer with 5 years of experience ,I have worked on several mobile apps and web projects using React Native and React js. I am also proficient in Python, Flask, Mysql, Sql, Mongo Db and FireBase.I have worked as a freelance backend developer with other developers to help complete and ship projects to clients'
 
 const About = () =>{
     return(
